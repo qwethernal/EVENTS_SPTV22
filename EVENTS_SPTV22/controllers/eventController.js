@@ -31,6 +31,36 @@ const eventController = {
             res.status(500).json(error);
         }
     },
+    updateEvent: async (req, res) => {
+        try {
+            const { title, description, location, startDate, endDate, categoryID } = req.body;
+    
+            const [updated] = await Event.update(
+                { title, description, location, startDate, endDate, categoryID },
+                { where: { id: req.params.id } }
+            );
+    
+            if (updated) {
+                const updatedEvent = await Event.findByPk(req.params.id);
+                res.json(updatedEvent);
+            } else {
+                res.status(404).json({ message: 'Event not found' });
+            }
+        } catch (error) {
+            res.status(500).json(error);
+        }
+    },    
+    delete: async (req, res) => {
+        try {
+            const deleted = await Event.destroy({ where: { id: req.params.id } });
+            if (deleted) {
+                return res.status(204).json({ message: 'Event deleted' });
+            }
+            return res.status(404).json({ message: 'Event not found' });
+        } catch (error) {
+            res.status(500).json(error);
+        }
+    },
     
     findByCategory: async (req, res) => {
         try {

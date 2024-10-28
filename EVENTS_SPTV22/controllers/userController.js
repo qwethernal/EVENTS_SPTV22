@@ -1,14 +1,72 @@
 const { User } = require('../models');
-const generateCRUDControllers = require('./generateCRUDControllers');
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 require('dotenv').config();
 
-const userCRUDControllers = generateCRUDControllers(User);
-
 
 const userController = {
-    ...userCRUDControllers, 
+    createUser: async (req, res) => {
+        try {
+            const { username, password, email } = req.body;
+
+            const user = await User.create({
+                username,
+                password,
+                email
+            });
+    
+            res.status(201).json(user);
+        } catch (error) {
+            res.status(500).json(error);
+        }
+    },
+        findAll: async (req, res) => {
+            try {
+                const items = await User.findAll();
+                res.status(200).json(items);
+            } catch (error) {
+                res.status(500).json(error);
+            }
+        },
+        findOne: async (req, res) => {
+            try {
+                const item = await User.findByPk(req.params.id);
+                if (!item) return res.status(404).json({ message: 'User not found' });
+                res.json(item);
+            } catch (error) {
+                res.status(500).json(error);
+            }
+        },
+        updateUser: async (req, res) => {
+            try {
+                const { username, password, email } = req.body;
+        
+                const [updated] = await User.update(
+                    { username, password, email },
+                    { where: { id: req.params.id } }
+                );
+        
+                if (updated) {
+                    const updatedUser = await User.findByPk(req.params.id);
+                    res.json(updatedUser);
+                } else {
+                    res.status(404).json({ message: 'User not found' });
+                }
+            } catch (error) {
+                res.status(500).json(error);
+            }
+        },        
+        delete: async (req, res) => {
+            try {
+                const deleted = await User.destroy({ where: { id: req.params.id } });
+                if (deleted) {
+                    return res.status(204).json({ message: 'User deleted' });
+                }
+                return res.status(404).json({ message: 'User not found' });
+            } catch (error) {
+                res.status(500).json(error);
+            }
+        },
     findUsersByUsername: async (req, res) => {
         try {
             const users = await User.findAll({
