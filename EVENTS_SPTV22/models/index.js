@@ -1,7 +1,9 @@
+
 const User = require('./user');
 const Event = require('./event');
 const Category = require('./category');
 const Attendance = require('./attendance');
+
 
 User.hasMany(Event, { foreignKey: 'userId', as: 'events' });
 Event.belongsTo(User, { foreignKey: 'userId', as: 'user' });
@@ -15,5 +17,4 @@ Attendance.belongsTo(User, { foreignKey: 'userId', as: 'user' });
 Event.hasMany(Attendance, { foreignKey: 'eventId', as: 'attendances' });
 Attendance.belongsTo(Event, { foreignKey: 'eventId', as: 'event' });
 
-
-module.exports = {User,Event,Category,Attendance};
+module.exports = { User, Event, Category, Attendance };

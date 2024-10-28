@@ -9,7 +9,8 @@ const Event = sequelize.define('Event', {
     },
     title: {
         type: DataTypes.STRING(100),
-        allowNull: false
+        allowNull: false,
+        unique: true
     },
     description: {
         type: DataTypes.TEXT,
@@ -19,30 +20,38 @@ const Event = sequelize.define('Event', {
         type: DataTypes.STRING(100),
         allowNull: false
     },
-    startdate: {
-        type: DataTypes.DATE,
-        allowNull: false
-    },
-    enddate: {
-        type: DataTypes.DATE,
-        allowNull: false
-    },
-  userId: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-    references: {
-      model: 'users',
-      key: 'id',
-    }
+    startDate: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      validate: {
+          notEmpty: true,
+          isValidDate(value) {
+              if (!this.endDate || new Date(value) >= new Date(this.endDate)) {
+                  throw new Error('Start date must be before end date.');
+              }
+          }
+      }
   },
-  categoryID: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-    references: {
-      model: 'categories',
-      key: 'id',
+  endDate: {
+      type: DataTypes.DATE,
+      allowNull: false,
+  } ,
+    userId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        references: {
+            model: 'users',
+            key: 'id',
+        }
+    },
+    categoryID: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        references: {
+            model: 'categories',
+            key: 'id',
+        }
     }
-  }
 }, {
     timestamps: false,
     tableName: 'events'

@@ -18,17 +18,17 @@ router.get('/users/username/:username', userController.findUsersByUsername);
 
 
 router.post('/users/:id/events', authJWT.verifyToken, authJWT.checkUserId, eventController.createEventNoUserId);
-router.get('/events', eventController.findAll);
-router.get('/events/:id', eventController.findOne);
-router.get('/events/category/:categoryID', eventController.findByCategory);
+router.get('/events', eventController.findAllEvent);
+router.get('/events/:id', eventController.findOneEvent);
+router.get('/events/category/:categoryName', eventController.findByCategory);
 router.get('/events/time/:date', eventController.findByDate);
 router.put('/events/:id', authJWT.verifyToken, eventController.update);
 router.delete('/events/:id', authJWT.verifyToken, eventController.delete);
 
 
 router.post('/users/:id/attendances', authJWT.verifyToken, authJWT.checkUserId, attendanceController.create);
-router.get('/attendance', attendanceController.findAll);
-router.get('/attendance/:id', attendanceController.findOne);
+router.get('/attendance', attendanceController.findAllAttendance);
+router.get('/attendance/:id', attendanceController.findOneAttendance);
 router.put('/attendances/:id', authJWT.verifyToken, attendanceController.update);
 router.delete('/attendances/:id', authJWT.verifyToken, attendanceController.delete);
 

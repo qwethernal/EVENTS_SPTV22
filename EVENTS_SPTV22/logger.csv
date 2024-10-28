@@ -99,3 +99,132 @@ Timestamp,Method,URL,StatusCode,StatusMessage
 2024-10-21T08:21:47.107Z,POST,/users/6/attendances,201,Created
 2024-10-21T08:22:33.558Z,POST,/categories,400,Bad Request
 2024-10-21T08:22:41.987Z,POST,/categories,201,Created
+2024-10-21T10:30:40.485Z,GET,/events,200,OK
+2024-10-21T10:36:47.060Z,GET,/events,200,OK
+2024-10-21T10:58:51.671Z,GET,/events,200,OK
+2024-10-21T10:58:56.888Z,GET,/events,200,OK
+2024-10-21T11:02:22.248Z,GET,/events,200,OK
+2024-10-21T11:09:34.717Z,GET,/events,500,Internal Server Error
+2024-10-21T11:12:55.510Z,GET,/events,200,OK
+2024-10-21T11:21:05.323Z,GET,/events,200,OK
+2024-10-21T11:22:27.927Z,POST,/users/signup,201,Created
+2024-10-21T11:22:38.578Z,POST,/users/signin,200,OK
+2024-10-21T11:23:05.406Z,POST,/users/3/events,201,Created
+2024-10-21T11:23:15.257Z,GET,/events,200,OK
+2024-10-21T11:38:30.140Z,GET,/events,200,OK
+2024-10-21T11:38:37.951Z,GET,/attendance,200,OK
+2024-10-21T11:38:51.844Z,GET,/categories,200,OK
+2024-10-21T11:39:02.140Z,GET,/users,200,OK
+2024-10-21T11:40:49.676Z,GET,/users/1,200,OK
+2024-10-21T11:40:54.267Z,GET,/events/1,200,OK
+2024-10-21T11:41:03.736Z,GET,/attendance/1,200,OK
+2024-10-21T11:41:12.322Z,GET,/categories/1,200,OK
+2024-10-21T11:41:39.790Z,GET,/events/category/1,200,OK
+2024-10-21T11:42:12.487Z,GET,/events/category/art,404,Not Found
+2024-10-21T11:42:19.208Z,GET,/events/category/Music,404,Not Found
+2024-10-21T11:42:27.216Z,GET,/events/category/music,404,Not Found
+2024-10-21T11:59:39.399Z,GET,/events,200,OK
+2024-10-21T11:59:44.959Z,GET,/attendance,200,OK
+2024-10-21T12:08:34.789Z,GET,/attendance,200,OK
+2024-10-21T12:10:11.499Z,GET,/users/signup,404,Not Found
+2024-10-21T12:10:16.133Z,POST,/users/signup,201,Created
+2024-10-21T12:10:22.612Z,POST,/users/signin,200,OK
+2024-10-21T12:11:21.602Z,POST,/users/4/events,201,Created
+2024-10-28T06:23:16.094Z,POST,/users,404,Not Found
+2024-10-28T06:23:30.177Z,POST,/users/signup,201,Created
+2024-10-28T06:23:51.547Z,POST,/users/signin,200,OK
+2024-10-28T06:33:32.650Z,POST,/users/signup,400,Bad Request
+2024-10-28T06:33:40.700Z,POST,/users/signup,400,Bad Request
+2024-10-28T06:33:44.729Z,POST,/users/signup,400,Bad Request
+2024-10-28T06:33:48.898Z,POST,/users/signup,201,Created
+2024-10-28T06:40:34.678Z,POST,/users/1/events,403,Forbidden
+2024-10-28T06:40:40.468Z,POST,/users/8/events,403,Forbidden
+2024-10-28T06:40:44.450Z,POST,/users/9/events,403,Forbidden
+2024-10-28T06:40:46.958Z,POST,/users/7/events,403,Forbidden
+2024-10-28T06:40:50.293Z,POST,/users/6/events,403,Forbidden
+2024-10-28T06:42:00.308Z,POST,/users/5/events,201,Created
+2024-10-28T06:50:33.432Z,POST,/users/5/events,201,Created
+2024-10-28T06:51:10.814Z,POST,/users/signup,400,Bad Request
+2024-10-28T06:52:19.934Z,POST,/users/signup,400,Bad Request
+2024-10-28T06:52:30.834Z,POST,/users/signup,400,Bad Request
+2024-10-28T06:52:35.825Z,POST,/users/signup,201,Created
+2024-10-28T06:52:43.040Z,POST,/users/signin,200,OK
+2024-10-28T06:53:53.527Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T06:54:10.120Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T06:54:17.934Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T06:54:49.224Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T06:55:43.885Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T06:55:59.704Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T06:56:13.033Z,POST,/users/12/events,400,Bad Request
+2024-10-28T06:57:28.865Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T06:59:04.618Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:01:11.225Z,POST,/users/12/events,403,Forbidden
+2024-10-28T07:01:26.595Z,POST,/users/12/events,403,Forbidden
+2024-10-28T07:01:58.265Z,POST,/users/12/events,403,Forbidden
+2024-10-28T07:09:07.217Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:09:20.845Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:09:25.540Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:10:01.424Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:10:48.302Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:11:32.948Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:11:54.859Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:12:08.139Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:14:25.929Z,POST,/users/12/events,201,Created
+2024-10-28T07:15:38.190Z,POST,/users/12/events,201,Created
+2024-10-28T07:16:37.664Z,POST,/users/12/events,201,Created
+2024-10-28T07:17:27.788Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:21:47.673Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:21:57.642Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:22:01.621Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:22:05.897Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:22:11.238Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:22:14.776Z,POST,/users/12/events,201,Created
+2024-10-28T07:23:15.508Z,POST,/users/12/events,500,Internal Server Error
+2024-10-28T07:24:05.067Z,POST,/users/12/events,201,Created
+2024-10-28T07:27:11.600Z,GET,/events,200,OK
+2024-10-28T07:27:30.672Z,GET,/attendance,200,OK
+2024-10-28T07:27:41.280Z,GET,/users,200,OK
+2024-10-28T07:27:55.495Z,GET,/categories,200,OK
+2024-10-28T07:28:10.407Z,GET,/attendance/12,404,Not Found
+2024-10-28T07:28:22.258Z,GET,/events/12,200,OK
+2024-10-28T07:28:41.481Z,GET,/time/2024-10-28,404,Not Found
+2024-10-28T07:29:30.981Z,GET,/events/time/2024-10-28,200,OK
+2024-10-28T07:57:55.212Z,GET,/users/username/user2,200,OK
+2024-10-28T07:58:14.882Z,GET,/users,200,OK
+2024-10-28T07:58:28.043Z,GET,/users/2,200,OK
+2024-10-28T07:58:45.007Z,GET,/users/username/user2,200,OK
+2024-10-28T07:58:56.870Z,GET,/events,200,OK
+2024-10-28T07:59:13.259Z,GET,/events/2,200,OK
+2024-10-28T07:59:18.061Z,GET,/events,200,OK
+2024-10-28T07:59:20.781Z,GET,/events/2,200,OK
+2024-10-28T07:59:42.646Z,GET,/events/2,200,OK
+2024-10-28T08:02:24.300Z,GET,/events/2,200,OK
+2024-10-28T08:02:50.493Z,GET,/events/2,200,OK
+2024-10-28T08:02:55.669Z,GET,/events/12,200,OK
+2024-10-28T08:03:19.927Z,GET,/events/category/music,404,Not Found
+2024-10-28T08:03:28.868Z,GET,/events/category/1,200,OK
+2024-10-28T08:06:23.602Z,GET,/events/category/1,200,OK
+2024-10-28T08:06:47.737Z,GET,/events/time/2024-10-22,404,Not Found
+2024-10-28T08:06:51.390Z,GET,/events/time/2024-10-28,200,OK
+2024-10-28T08:08:38.127Z,GET,/events/time/2024-10-28,200,OK
+2024-10-28T08:32:44.521Z,GET,/events/category/2,500,Internal Server Error
+2024-10-28T08:32:46.745Z,GET,/events/category/1,500,Internal Server Error
+2024-10-28T08:33:32.469Z,GET,/events/category/1,500,Internal Server Error
+2024-10-28T08:33:50.382Z,GET,/events/category/1,500,Internal Server Error
+2024-10-28T08:34:05.510Z,GET,/events/category/1,500,Internal Server Error
+2024-10-28T08:34:07.987Z,GET,/events,200,OK
+2024-10-28T08:34:15.801Z,GET,/events/category,404,Not Found
+2024-10-28T08:34:27.456Z,GET,/events/time/2024-10-28,200,OK
+2024-10-28T08:50:21.207Z,GET,/events/time/2024-10-28,200,OK
+2024-10-28T08:50:28.374Z,GET,/events/category/music,200,OK
+2024-10-28T08:50:34.195Z,GET,/events/category/art,200,OK
+2024-10-28T09:01:41.210Z,GET,/events/category/art,200,OK
+2024-10-28T09:01:53.619Z,GET,/events/time/2024-10-28,200,OK
+2024-10-28T09:02:19.232Z,GET,/attendance,200,OK
+2024-10-28T09:02:26.625Z,GET,/attendance/1,200,OK
+2024-10-28T09:05:47.194Z,GET,/attendance/1,200,OK
+2024-10-28T09:05:52.511Z,GET,/attendance/2,200,OK
+2024-10-28T09:05:59.771Z,GET,/attendance/10,404,Not Found
+2024-10-28T09:06:03.695Z,GET,/attendance,200,OK
+2024-10-28T09:06:23.112Z,GET,/categories,200,OK
+2024-10-28T09:06:30.501Z,GET,/categories/1,200,OK
