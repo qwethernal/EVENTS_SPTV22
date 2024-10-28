@@ -11,7 +11,7 @@ const attendanceController = {
 
     findOneAttendance: async (req, res) => {
         try {
-            const attendanceId = req.params.id; // Получаем ID участия
+            const attendanceId = req.params.id;
             const attendance = await Attendance.findByPk(attendanceId, {
                 include: [
                     { model: User, as: 'user', attributes: ['username'] },
