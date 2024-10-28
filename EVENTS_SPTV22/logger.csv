@@ -228,3 +228,62 @@ Timestamp,Method,URL,StatusCode,StatusMessage
 2024-10-28T09:06:03.695Z,GET,/attendance,200,OK
 2024-10-28T09:06:23.112Z,GET,/categories,200,OK
 2024-10-28T09:06:30.501Z,GET,/categories/1,200,OK
+2024-10-28T10:29:53.115Z,GET,/categories/,200,OK
+2024-10-28T10:29:57.778Z,GET,/events,200,OK
+2024-10-28T10:34:51.667Z,GET,/events,200,OK
+2024-10-28T10:39:37.265Z,GET,/api,404,Not Found
+2024-10-28T10:39:47.139Z,GET,/api-docs,404,Not Found
+2024-10-28T10:39:51.200Z,GET,/api/api-docs,404,Not Found
+2024-10-28T10:39:55.697Z,GET,/api-docs,404,Not Found
+2024-10-28T10:40:03.801Z,GET,/events,200,OK
+2024-10-28T10:40:03.830Z,GET,/favicon.ico,404,Not Found
+2024-10-28T10:41:57.457Z,GET,/api,404,Not Found
+2024-10-28T10:59:18.460Z,GET,/api-docs/,304,Not Modified
+2024-10-28T10:59:18.474Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-10-28T10:59:18.479Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-10-28T10:59:18.482Z,GET,/api-docs/swagger-ui-init.js,200,OK
+2024-10-28T10:59:18.483Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-10-28T10:59:18.752Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T10:59:38.202Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T10:59:43.650Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T10:59:48.039Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T10:59:53.404Z,GET,/api/users,404,Not Found
+2024-10-28T11:00:03.635Z,GET,/api/users,404,Not Found
+2024-10-28T11:00:13.175Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:00:23.913Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:00:32.358Z,GET,/api/events,404,Not Found
+2024-10-28T11:02:11.269Z,GET,/api-docs/,304,Not Modified
+2024-10-28T11:02:11.279Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-10-28T11:02:11.282Z,GET,/api-docs/swagger-ui-init.js,200,OK
+2024-10-28T11:02:11.283Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-10-28T11:02:11.284Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-10-28T11:02:11.482Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:02:14.232Z,GET,//events,404,Not Found
+2024-10-28T11:02:29.185Z,GET,/api-docs/,304,Not Modified
+2024-10-28T11:02:29.198Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-10-28T11:02:29.200Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-10-28T11:02:29.201Z,GET,/api-docs/swagger-ui-init.js,304,Not Modified
+2024-10-28T11:02:29.201Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-10-28T11:02:29.286Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:02:31.466Z,GET,//events,404,Not Found
+2024-10-28T11:02:54.527Z,GET,/api-docs/,304,Not Modified
+2024-10-28T11:02:54.538Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-10-28T11:02:54.540Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-10-28T11:02:54.542Z,GET,/api-docs/swagger-ui-init.js,200,OK
+2024-10-28T11:02:54.543Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-10-28T11:02:54.632Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:02:56.664Z,GET,/events,304,Not Modified
+2024-10-28T11:03:10.365Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:03:11.697Z,GET,/users,200,OK
+2024-10-28T11:04:55.131Z,GET,/api-docs/,304,Not Modified
+2024-10-28T11:04:55.140Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-10-28T11:04:55.143Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-10-28T11:04:55.146Z,GET,/api-docs/swagger-ui-init.js,304,Not Modified
+2024-10-28T11:04:55.146Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-10-28T11:04:55.245Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:04:57.244Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:04:59.579Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:05:10.296Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:05:11.161Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-10-28T11:05:13.806Z,POST,/users/signup,400,Bad Request
+2024-10-28T11:05:23.734Z,GET,/api-docs/favicon-32x32.png,304,Not Modified

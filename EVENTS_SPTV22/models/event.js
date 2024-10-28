@@ -22,6 +22,7 @@ const Event = sequelize.define('Event', {
     },
     startDate: {
       type: DataTypes.DATE,
+      isDate: true,
       allowNull: false,
       validate: {
           notEmpty: true,
@@ -34,6 +35,7 @@ const Event = sequelize.define('Event', {
   },
   endDate: {
       type: DataTypes.DATE,
+      isDate: true,
       allowNull: false,
   } ,
     userId: {
