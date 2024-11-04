@@ -539,3 +539,38 @@ Timestamp,Method,URL,StatusCode,StatusMessage
 2024-10-28T13:08:57.307Z,GET,/categories,200,OK
 2024-10-28T13:08:59.524Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
 2024-10-28T13:09:04.707Z,DELETE,/categories/3,204,No Content
+2024-11-04T10:09:34.715Z,GET,/api-docs/,304,Not Modified
+2024-11-04T10:09:34.749Z,GET,/api-docs/swagger-ui-init.js,200,OK
+2024-11-04T10:09:34.753Z,GET,/api-docs/swagger-ui.css,200,OK
+2024-11-04T10:09:34.759Z,GET,/api-docs/swagger-ui-standalone-preset.js,200,OK
+2024-11-04T10:09:34.768Z,GET,/api-docs/swagger-ui-bundle.js,200,OK
+2024-11-04T10:10:44.928Z,GET,/api-docs/,304,Not Modified
+2024-11-04T10:10:44.940Z,GET,/api-docs/swagger-ui-init.js,304,Not Modified
+2024-11-04T10:10:44.941Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-11-04T10:10:44.942Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-11-04T10:10:44.943Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-11-04T10:10:45.125Z,GET,/api-docs/favicon-32x32.png,200,OK
+2024-11-04T10:10:57.763Z,GET,/api-docs/,304,Not Modified
+2024-11-04T10:10:57.776Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-11-04T10:10:57.780Z,GET,/api-docs/swagger-ui-init.js,200,OK
+2024-11-04T10:10:57.781Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-11-04T10:10:57.784Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-11-04T10:10:57.905Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-11-04T10:12:16.992Z,GET,/api-docs/,304,Not Modified
+2024-11-04T10:12:17.005Z,GET,/api-docs/swagger-ui-init.js,304,Not Modified
+2024-11-04T10:12:17.007Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-11-04T10:12:17.006Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-11-04T10:12:17.008Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-11-04T10:12:17.138Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-11-04T10:12:28.706Z,GET,/api-docs/,304,Not Modified
+2024-11-04T10:12:28.718Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-11-04T10:12:28.719Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-11-04T10:12:28.721Z,GET,/api-docs/swagger-ui-init.js,200,OK
+2024-11-04T10:12:28.722Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-11-04T10:12:28.849Z,GET,/api-docs/favicon-32x32.png,304,Not Modified
+2024-11-04T10:13:04.546Z,GET,/api-docs/,304,Not Modified
+2024-11-04T10:13:04.558Z,GET,/api-docs/swagger-ui.css,304,Not Modified
+2024-11-04T10:13:04.562Z,GET,/api-docs/swagger-ui-init.js,200,OK
+2024-11-04T10:13:04.562Z,GET,/api-docs/swagger-ui-bundle.js,304,Not Modified
+2024-11-04T10:13:04.563Z,GET,/api-docs/swagger-ui-standalone-preset.js,304,Not Modified
+2024-11-04T10:13:04.693Z,GET,/api-docs/favicon-32x32.png,304,Not Modified

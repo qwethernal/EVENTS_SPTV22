@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Blog API Documentation",
-    "description": "",
+    "title": "Events API Documentation",
+    "description": "Artjom Fetjukov, SPTV22 project",
     "version": "1.0.0"
   },
   "host": "localhost:3000",
@@ -14,6 +14,7 @@
   "paths": {
     "/users/signup": {
       "post": {
+        "tags": ["user"],
         "description": "",
         "parameters": [
           {
@@ -47,6 +48,7 @@
     },
     "/users/signin": {
       "post": {
+        "tags": ["user"],
         "description": "",
         "parameters": [
           {
@@ -80,6 +82,7 @@
     },
     "/users": {
       "get": {
+        "tags": ["user"],
         "description": "",
         "responses": {
           "200": {
@@ -93,6 +96,7 @@
     },
     "/users/{id}": {
       "get": {
+        "tags": ["user"],
         "description": "",
         "parameters": [
           {
@@ -115,6 +119,7 @@
         }
       },
       "put": {
+        "tags": ["user"],
         "description": "",
         "parameters": [
           {
@@ -166,6 +171,7 @@
         }
       },
       "delete": {
+        "tags": ["user"],
         "description": "",
         "parameters": [
           {
@@ -201,6 +207,7 @@
     },
     "/users/username/{username}": {
       "get": {
+        "tags": ["user"],
         "description": "",
         "parameters": [
           {
@@ -222,6 +229,7 @@
     },
     "/users/{id}/events": {
       "post": {
+        "tags": ["event"],
         "description": "",
         "parameters": [
           {
@@ -281,6 +289,7 @@
     },
     "/events": {
       "get": {
+        "tags": ["event"],
         "description": "",
         "responses": {
           "200": {
@@ -294,6 +303,7 @@
     },
     "/events/{id}": {
       "get": {
+        "tags": ["event"],
         "description": "",
         "parameters": [
           {
@@ -316,6 +326,7 @@
         }
       },
       "put": {
+        "tags": ["event"],
         "description": "",
         "parameters": [
           {
@@ -376,6 +387,7 @@
         }
       },
       "delete": {
+        "tags": ["event"],
         "description": "",
         "parameters": [
           {
@@ -411,6 +423,7 @@
     },
     "/events/category/{categoryName}": {
       "get": {
+        "tags": ["event"],
         "description": "",
         "parameters": [
           {
@@ -435,6 +448,7 @@
     },
     "/events/time/{date}": {
       "get": {
+        "tags": ["event"],
         "description": "",
         "parameters": [
           {
@@ -459,6 +473,7 @@
     },
     "/users/{id}/attendances": {
       "post": {
+        "tags": ["attendance"],
         "description": "",
         "parameters": [
           {
@@ -509,6 +524,7 @@
     },
     "/attendance": {
       "get": {
+        "tags": ["attendance"],
         "description": "",
         "responses": {
           "200": {
@@ -522,6 +538,7 @@
     },
     "/attendance/{id}": {
       "get": {
+        "tags": ["attendance"],
         "description": "",
         "parameters": [
           {
@@ -546,6 +563,7 @@
     },
     "/attendances/{id}": {
       "put": {
+        "tags": ["attendance"],
         "description": "",
         "parameters": [
           {
@@ -597,6 +615,7 @@
         }
       },
       "delete": {
+        "tags": ["attendance"],
         "description": "",
         "parameters": [
           {
@@ -632,6 +651,7 @@
     },
     "/categories": {
       "post": {
+        "tags": ["category"],
         "description": "",
         "parameters": [
           {
@@ -671,6 +691,7 @@
         }
       },
       "get": {
+        "tags": ["category"],
         "description": "",
         "responses": {
           "200": {
@@ -684,6 +705,7 @@
     },
     "/categories/{id}": {
       "get": {
+        "tags": ["category"],
         "description": "",
         "parameters": [
           {
@@ -706,6 +728,7 @@
         }
       },
       "put": {
+        "tags": ["category"],
         "description": "",
         "parameters": [
           {
@@ -754,6 +777,7 @@
         }
       },
       "delete": {
+        "tags": ["category"],
         "description": "",
         "parameters": [
           {

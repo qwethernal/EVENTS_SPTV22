@@ -5,7 +5,7 @@ const endpointsFiles = ['./routes/*.js'];
 
 const config = {
     info: {
-        title: 'Blog API Documentation',
+        title: 'Events API Documentation',
         description: '',
     },
     tags: [ ],
